@@ -12,6 +12,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
       - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
