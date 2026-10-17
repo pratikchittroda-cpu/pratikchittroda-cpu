@@ -26,7 +26,6 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
 - 🌱 Always learning by shipping, iterating, and sharing the work
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=pratikchittroda-cpu&show_icons=true&hide_border=true&theme=transparent&bg_color=0B1220&title_color=F8FAFC&text_color=CBD5E1&icon_color=38BDF8&rank_icon=github" alt="Pratik's GitHub stats" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratikchittroda-cpu&layout=compact&hide_border=true&theme=transparent&bg_color=0B1220&title_color=F8FAFC&text_color=CBD5E1&icon_color=38BDF8&langs_count=6" alt="Top languages" height="170" />
 </div>
 
