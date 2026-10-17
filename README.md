@@ -70,7 +70,7 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
 <br />
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" width="96%" />
+  <img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda/main/output/github-contribution-grid-snake.svg" alt="Animated contribution snake" width="96%" />
 </div>
 
 <p align="center"><sub>Contribution animation refreshed automatically by GitHub Actions.</sub></p>
