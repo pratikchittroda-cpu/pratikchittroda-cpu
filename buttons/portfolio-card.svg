@@ -20,9 +20,8 @@
     <animate attributeName="opacity" values=".25;.65;.25" dur="3.5s" repeatCount="indefinite" />
   </rect>
   <rect x="2" y="2" width="216" height="50" rx="25" fill="url(#bg)" stroke="#ddd6fe" stroke-opacity=".72" />
-  <clipPath id="clip"><rect x="2" y="2" width="216" height="50" rx="25" /></clipPath>
-  <g clip-path="url(#clip)" transform="skewX(-18)" opacity=".28">
-    <rect x="-55" y="2" width="36" height="50" rx="18" fill="url(#shine)">
+  <g transform="skewX(-18)" opacity=".28">
+    <rect x="-55" y="2" width="36" height="50" fill="url(#shine)">
       <animateTransform attributeName="transform" type="translate" from="-20 0" to="290 0" dur="3.6s" repeatCount="indefinite" />
     </rect>
   </g>
