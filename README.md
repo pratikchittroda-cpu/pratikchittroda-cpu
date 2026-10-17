@@ -9,9 +9,9 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/pratikchittroda-cpu"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/github.svg?v=4" alt="GitHub profile" width="220" height="54" /></a>
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/portfolio.svg?v=4" alt="Portfolio" width="220" height="54" /></a>
-  <a href="https://project1-7a465.web.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/expenzo.svg?v=4" alt="Open Expenzo" width="220" height="54" /></a>
+  <a href="https://github.com/pratikchittroda-cpu"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/github.svg?v=4" alt="GitHub profile" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/portfolio.svg?v=4" alt="Portfolio" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
+  <a href="https://project1-7a465.web.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/expenzo.svg?v=4" alt="Open Expenzo" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
 </p>
 
 <br />
@@ -33,9 +33,9 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
 ## ✅ Finished apps
 
 <p align="center">
-  <a href="https://project1-7a465.web.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/expenzo.svg?v=4" alt="Open Expenzo app site" width="220" height="54" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/Project-diploma"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/source.svg?v=4" alt="Expenzo source code" width="220" height="54" /></a>
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/portfolio-card.svg?v=4" alt="Portfolio Card live demo" width="220" height="54" /></a>
+  <a href="https://project1-7a465.web.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/expenzo.svg?v=4" alt="Open Expenzo app site" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Project-diploma"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/source.svg?v=4" alt="Expenzo source code" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/portfolio-card.svg?v=4" alt="Portfolio Card live demo" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
 </p>
 
 ## 🧪 Selected work
@@ -88,8 +88,8 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
 If you’re working on a product with a strong idea, a tricky interaction, or an interesting AI angle, I’d love to hear about it.
 
 <p align="center">
-  <a href="https://github.com/pratikchittroda-cpu"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/github.svg?v=4" alt="Explore repositories" width="220" height="54" /></a>
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/portfolio.svg?v=4" alt="See portfolio" width="220" height="54" /></a>
+  <a href="https://github.com/pratikchittroda-cpu"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/github.svg?v=4" alt="Explore repositories" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/buttons/portfolio.svg?v=4" alt="See portfolio" width="220" height="54" style="background: transparent !important; border-radius: 27px !important;" /></a>
 </p>
 
 <details>
