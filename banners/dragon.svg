@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="360" viewBox="0 0 1400 360" role="img" aria-labelledby="title desc">
+  <title id="title">Pratik — app developer, product builder, and AI explorer</title>
+  <desc id="desc">A luminous blue dragon roams through a dark navy and cyan aurora behind the profile header.</desc>
+
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="0.9">
+      <stop offset="0" stop-color="#0b1220" />
+      <stop offset="0.46" stop-color="#172554" />
+      <stop offset="1" stop-color="#08758a" />
+    </linearGradient>
+    <radialGradient id="leftAurora" cx="0.12" cy="0.18" r="0.75">
+      <stop offset="0" stop-color="#2563eb" stop-opacity="0.38" />
+      <stop offset="1" stop-color="#2563eb" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="rightAurora" cx="0.82" cy="0.22" r="0.72">
+      <stop offset="0" stop-color="#22d3ee" stop-opacity="0.34" />
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="lowerWave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#071421" />
+      <stop offset="0.5" stop-color="#0b2033" />
+      <stop offset="1" stop-color="#071421" />
+    </linearGradient>
+    <linearGradient id="dragonBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d8fbff" />
+      <stop offset="0.22" stop-color="#78e5f8" />
+      <stop offset="0.58" stop-color="#1e86b7" />
+      <stop offset="1" stop-color="#12345b" />
+    </linearGradient>
+    <linearGradient id="dragonShade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#143d68" />
+      <stop offset="1" stop-color="#071426" />
+    </linearGradient>
+    <linearGradient id="wingMembrane" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7dd3fc" stop-opacity="0.8" />
+      <stop offset="0.52" stop-color="#2563eb" stop-opacity="0.48" />
+      <stop offset="1" stop-color="#081b37" stop-opacity="0.86" />
+    </linearGradient>
+    <linearGradient id="horn" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="0.48" stop-color="#a5f3fc" />
+      <stop offset="1" stop-color="#5b8dbb" />
+    </linearGradient>
+    <linearGradient id="flame" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f8fafc" />
+      <stop offset="0.35" stop-color="#67e8f9" />
+      <stop offset="1" stop-color="#0ea5e9" stop-opacity="0" />
+    </linearGradient>
+    <pattern id="scales" width="18" height="14" patternUnits="userSpaceOnUse">
+      <path d="M1 5 Q9 13 17 5" fill="none" stroke="#d9fbff" stroke-opacity="0.22" stroke-width="1.2" />
+      <path d="M1 5 Q9 -3 17 5" fill="none" stroke="#0b4d78" stroke-opacity="0.35" stroke-width="1" />
+    </pattern>
+    <filter id="softGlow" x="-40%" y="-80%" width="180%" height="260%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter id="tinyGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="2.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <path id="roamPath" d="M 120 284 C 220 225 330 316 500 270 S 820 222 1020 274 S 1370 316 1690 251" />
+    <clipPath id="headerClip">
+      <rect width="1400" height="360" rx="18" />
+    </clipPath>
+  </defs>
+
+  <rect width="1400" height="360" rx="18" fill="url(#sky)" />
+  <rect width="1400" height="360" rx="18" fill="url(#leftAurora)" />
+  <rect width="1400" height="360" rx="18" fill="url(#rightAurora)" />
+
+  <g clip-path="url(#headerClip)">
+    <g fill="#dffbff">
+      <circle cx="112" cy="72" r="1.4" opacity="0.64">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="4.8s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="276" cy="52" r="1.2" opacity="0.55">
+        <animate attributeName="opacity" values="0.7;0.2;0.7" dur="6.4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1122" cy="76" r="1.5" opacity="0.58">
+        <animate attributeName="opacity" values="0.25;0.85;0.25" dur="5.2s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1264" cy="128" r="1.1" opacity="0.55">
+        <animate attributeName="opacity" values="0.8;0.25;0.8" dur="7.1s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <path d="M0 291 C214 245 390 314 602 281 C844 243 1031 226 1400 276 V360 H0 Z" fill="url(#lowerWave)" opacity="0.94" />
+    <path d="M0 317 C230 278 419 333 648 302 C873 272 1070 256 1400 300 V360 H0 Z" fill="#08111c" opacity="0.76" />
+
+    <g id="dragonMotion" filter="url(#softGlow)">
+      <animateTransform attributeName="transform" type="translate" values="-90 284;220 267;520 287;825 248;1130 276;1490 259" keyTimes="0;0.16;0.35;0.56;0.78;1" dur="18s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.5;1;1;0.82;0.5" keyTimes="0;0.12;0.62;0.88;1" dur="18s" repeatCount="indefinite" />
+
+      <g id="dragonTilt">
+        <animateTransform attributeName="transform" type="rotate" values="-4 0 0;4 0 0;-3 0 0;3 0 0;-2 0 0" keyTimes="0;0.2;0.42;0.7;1" dur="18s" repeatCount="indefinite" />
+
+        <ellipse cx="-8" cy="73" rx="180" ry="12" fill="#020617" opacity="0.58" filter="url(#tinyGlow)" />
+
+        <path d="M-28 20 C-84 11 -124 43 -181 34 C-236 25 -275 56 -332 82" fill="none" stroke="#020617" stroke-width="35" stroke-linecap="round" />
+        <path d="M-28 20 C-84 11 -124 43 -181 34 C-236 25 -275 56 -332 82" fill="none" stroke="#102c4c" stroke-width="24" stroke-linecap="round" />
+        <path d="M-28 18 C-84 10 -124 42 -181 33 C-236 24 -275 55 -332 81" fill="none" stroke="#62d8ed" stroke-opacity="0.42" stroke-width="2.4" stroke-linecap="round" />
+        <path d="M-164 32 l-18 -29 31 12 13 -34 16 32 29 -23 -2 32 31 -17 -10 29" fill="#020617" stroke="#67dff3" stroke-opacity="0.58" stroke-width="2" />
+
+        <path d="M-47 11 C-18 -20 42 -29 96 -13 C145 1 181 28 224 11 C252 0 276 -9 304 -3" fill="none" stroke="#020617" stroke-width="56" stroke-linecap="round" />
+        <path d="M-47 11 C-18 -20 42 -29 96 -13 C145 1 181 28 224 11 C252 0 276 -9 304 -3" fill="none" stroke="url(#dragonShade)" stroke-width="44" stroke-linecap="round" />
+        <path d="M-43 4 C-6 -15 43 -20 89 -7 C132 4 174 28 217 8" fill="none" stroke="url(#scales)" stroke-opacity="0.7" stroke-width="37" stroke-linecap="round" />
+        <path d="M-36 31 C18 50 88 43 141 22" fill="none" stroke="#061a31" stroke-opacity="0.86" stroke-width="11" stroke-linecap="round" />
+
+        <path d="M-31 -18 l-24 -40 36 20 10 -44 20 41 27 -35 1 39 34 -26 -9 39 35 -15 -18 27" fill="#020617" stroke="#67dff3" stroke-opacity="0.54" stroke-width="2" stroke-linejoin="round" />
+
+        <path d="M55 4 C78 -27 82 -61 106 -83 C121 -98 145 -96 164 -84 C145 -64 129 -48 124 -26 C119 -4 109 17 83 30 Z" fill="#020617" stroke="#74e6f5" stroke-opacity="0.78" stroke-width="2.8" />
+        <path d="M143 -83 C159 -110 196 -115 222 -99 L245 -83 L225 -66 L190 -69 L171 -53 L145 -64 Z" fill="#020617" stroke="#b0f2fc" stroke-opacity="0.88" stroke-width="2.8" />
+        <path d="M219 -82 L265 -75 L236 -60 L203 -64" fill="#020617" stroke="#72e3f3" stroke-opacity="0.8" stroke-width="2.4" />
+        <path d="M168 -98 L154 -131 M187 -105 L185 -139 M206 -103 L224 -132" fill="none" stroke="url(#horn)" stroke-width="5" stroke-linecap="round" />
+        <path d="M173 -57 C191 -46 216 -47 232 -59" fill="none" stroke="#75e5f4" stroke-opacity="0.7" stroke-width="2.6" stroke-linecap="round" />
+        <ellipse cx="203" cy="-84" rx="5.5" ry="4.5" fill="#e0fbff" filter="url(#tinyGlow)">
+          <animate attributeName="fill" values="#f8fafc;#67e8f9;#f8fafc" dur="2.4s" repeatCount="indefinite" />
+        </ellipse>
+        <circle cx="205" cy="-84" r="1.8" fill="#061426" />
+
+        <path d="M258 -73 C287 -88 313 -79 342 -96 C325 -78 315 -68 346 -65 C316 -55 292 -62 261 -58" fill="url(#flame)" filter="url(#tinyGlow)">
+          <animate attributeName="opacity" values="0.18;0.94;0.3;0.82;0.18" dur="2.8s" repeatCount="indefinite" />
+        </path>
+        <path d="M260 -55 C290 -48 311 -32 338 -34 C316 -24 290 -32 264 -42" fill="none" stroke="#6de6f5" stroke-opacity="0.56" stroke-width="2" />
+
+        <g fill="none" stroke="#020617" stroke-linecap="round">
+          <path d="M-5 39 L-14 72 L-34 88 M52 43 L59 77 L43 93 M119 31 L132 61 L119 78" stroke-width="17" />
+          <path d="M-5 39 L-14 72 L-34 88 M52 43 L59 77 L43 93 M119 31 L132 61 L119 78" stroke="#72e3f3" stroke-opacity="0.56" stroke-width="2.2" />
+          <path d="M-34 88 l-10 6 M-34 88 l-3 10 M43 93 l-10 5 M43 93 l-2 10 M119 78 l-9 7 M119 78 l2 9" stroke="#8cebf7" stroke-opacity="0.72" stroke-width="2.4" />
+        </g>
+      </g>
+    </g>
+
+    <g fill="#67e8f9" opacity="0.7" filter="url(#tinyGlow)">
+      <circle cx="160" cy="293" r="2">
+        <animate attributeName="cy" values="293;270;293" dur="3.4s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.8;0" dur="3.4s" repeatCount="indefinite" />
+      </circle>
+      <circle cx="1190" cy="286" r="2">
+        <animate attributeName="cy" values="286;258;286" dur="4.1s" repeatCount="indefinite" />
+        <animate attributeName="opacity" values="0;0.8;0" dur="4.1s" repeatCount="indefinite" />
+      </circle>
+    </g>
+
+    <g text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
+      <text x="700" y="132" fill="#f8fafc" font-size="68" font-weight="800" letter-spacing="-2">Pratik</text>
+      <text x="700" y="198" fill="#f8fafc" font-size="23" font-weight="650">App developer | Product builder | AI explorer</text>
+    </g>
+  </g>
+
+  <rect x="1" y="1" width="1398" height="358" rx="18" fill="none" stroke="#24324a" stroke-opacity="0.72" stroke-width="2" />
+</svg>
