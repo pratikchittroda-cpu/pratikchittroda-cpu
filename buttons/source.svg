@@ -11,14 +11,14 @@
       <stop offset=".5" stop-color="#fff" stop-opacity=".65" />
       <stop offset="1" stop-color="#fff" stop-opacity="0" />
     </linearGradient>
-    <clipPath id="pill"><rect x="2" y="2" width="216" height="50" rx="25" /></clipPath>
+    <clipPath id="pill"><rect width="220" height="54" rx="27" /></clipPath>
   </defs>
-  <rect x="2" y="2" width="216" height="50" rx="25" fill="url(#bg)" stroke="#7dd3fc" stroke-opacity=".7">
+  <rect width="220" height="54" rx="27" fill="url(#bg)" stroke="#7dd3fc" stroke-opacity=".7">
     <animate attributeName="stroke-opacity" values=".5;.9;.5" dur="3.3s" repeatCount="indefinite" />
   </rect>
   <g clip-path="url(#pill)">
     <g transform="skewX(-18)" opacity=".28">
-      <rect x="-55" y="2" width="36" height="50" fill="url(#shine)">
+      <rect x="-55" width="36" height="54" fill="url(#shine)">
         <animateTransform attributeName="transform" type="translate" from="-20 0" to="290 0" dur="3.7s" repeatCount="indefinite" />
       </rect>
     </g>
