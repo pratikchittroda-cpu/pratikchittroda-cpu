@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B1220,48:172554,100:0891B2&text=Chittroda%20Pratik%20Nitin&fontSize=42&fontColor=F8FAFC&fontAlignY=38&desc=App%20developer%20%7C%20Product%20builder%20%7C%20AI%20explorer&descAlignY=60&descSize=16&animation=fadeIn" alt="Chittroda Pratik Nitin banner" width="100%" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0B1220,48:172554,100:0891B2&text=Pratik&fontSize=42&fontColor=F8FAFC&fontAlignY=38&desc=App%20developer%20%7C%20Product%20builder%20%7C%20AI%20explorer&descAlignY=60&descSize=16&animation=fadeIn" alt="Pratik banner" width="100%" />
 </div>
 
 <div align="center">
