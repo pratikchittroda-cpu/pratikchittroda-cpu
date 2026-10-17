@@ -30,14 +30,6 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratikchittroda-cpu&layout=compact&hide_border=true&theme=transparent&bg_color=0B1220&title_color=F8FAFC&text_color=CBD5E1&icon_color=38BDF8&langs_count=6" alt="Top languages" height="170" />
 </div>
 
-## ✦ Motion playground
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/pratikchittroda-cpu/pratikchittroda-cpu/main/motion/showcase.svg?v=1" alt="Ten animated interface motion experiments" width="100%" />
-</p>
-
-<p align="center"><sub>Pulse · sweep · orbit · radar · wave · equalizer · terminal · particles · border flow · twinkle</sub></p>
-
 ## ✅ Finished apps
 
 <p align="center">

@@ -9,6 +9,5 @@ RUN npm ci --ignore-scripts
 
 COPY README.md .nvmrc Makefile ./
 COPY scripts ./scripts
-COPY motion ./motion
 
 CMD ["npm", "test"]
