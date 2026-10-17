@@ -9,10 +9,10 @@
 </div>
 
 <p align="center">
-  <a href="https://github.com/pratikchittroda-cpu"><img src="https://img.shields.io/badge/GitHub-pratikchittroda--cpu-0B1220?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub profile" /></a>
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-visit%20the%20lab-0B1220?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio" /></a>
-  <a href="https://project1-7a465.web.app"><img src="https://img.shields.io/badge/Expenzo-open%20app-0B1220?style=for-the-badge&logo=googlechrome&logoColor=22C55E" alt="Open Expenzo" /></a>
-  <img src="https://komarev.com/ghpvc/?username=pratikchittroda-cpu&label=profile%20views&color=0891B2&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/pratikchittroda-cpu"><img src="https://img.shields.io/badge/GitHub-Follow%20the%20build-111827?style=flat-square&logo=github&logoColor=F8FAFC&labelColor=111827" alt="GitHub profile" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-View%20the%20lab-7C3AED?style=flat-square&logo=vercel&logoColor=F8FAFC&labelColor=111827" alt="Portfolio" /></a>
+  <a href="https://project1-7a465.web.app"><img src="https://img.shields.io/badge/Expenzo-Open%20app-06B6D4?style=flat-square&logo=googlechrome&logoColor=F8FAFC&labelColor=111827" alt="Open Expenzo" /></a>
+  <img src="https://komarev.com/ghpvc/?username=pratikchittroda-cpu&label=views&color=06B6D4&style=flat-square&labelColor=111827" alt="Profile views" />
 </p>
 
 <br />
@@ -33,9 +33,11 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
 
 ## ✅ Finished apps
 
-- [Expenzo — open the app site](https://project1-7a465.web.app)
-- [Expenzo — source code](https://github.com/pratikchittroda-cpu/Project-diploma)
-- [Portfolio Card — live demo](https://portfolio-card-ten-nu.vercel.app)
+<p align="center">
+  <a href="https://project1-7a465.web.app"><img src="https://img.shields.io/badge/Expenzo-Open%20app%20site-06B6D4?style=flat-square&logo=googlechrome&logoColor=F8FAFC&labelColor=111827" alt="Open Expenzo app site" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Project-diploma"><img src="https://img.shields.io/badge/Expenzo-Source%20code-38BDF8?style=flat-square&logo=github&logoColor=F8FAFC&labelColor=111827" alt="Expenzo source code" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio%20Card-Live%20demo-8B5CF6?style=flat-square&logo=vercel&logoColor=F8FAFC&labelColor=111827" alt="Portfolio Card live demo" /></a>
+</p>
 
 ## 🧪 Selected work
 
@@ -87,8 +89,8 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
 If you’re working on a product with a strong idea, a tricky interaction, or an interesting AI angle, I’d love to hear about it.
 
 <p align="center">
-  <a href="https://github.com/pratikchittroda-cpu"><img src="https://img.shields.io/badge/Explore%20my%20repos-38BDF8?style=for-the-badge&logo=github&logoColor=0B1220" alt="Explore repositories" /></a>
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://img.shields.io/badge/See%20the%20portfolio-A78BFA?style=for-the-badge&logo=vercel&logoColor=0B1220" alt="See portfolio" /></a>
+  <a href="https://github.com/pratikchittroda-cpu"><img src="https://img.shields.io/badge/Explore%20repos-38BDF8?style=flat-square&logo=github&logoColor=0B1220&labelColor=E2E8F0" alt="Explore repositories" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://img.shields.io/badge/See%20portfolio-A78BFA?style=flat-square&logo=vercel&logoColor=0B1220&labelColor=EDE9FE" alt="See portfolio" /></a>
 </p>
 
 <details>
