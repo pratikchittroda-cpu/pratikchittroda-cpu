@@ -13,6 +13,7 @@
     </linearGradient>
     <clipPath id="pill"><rect width="220" height="54" rx="27" /></clipPath>
   </defs>
+  <rect width="220" height="54" fill="#0d1117" />
   <rect width="220" height="54" rx="27" fill="url(#bg)" stroke="#64748b" stroke-opacity=".7">
     <animate attributeName="stroke-opacity" values=".5;.9;.5" dur="3.4s" repeatCount="indefinite" />
   </rect>
