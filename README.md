@@ -11,6 +11,7 @@
 <p align="center">
   <a href="https://github.com/pratikchittroda-cpu"><img src="https://img.shields.io/badge/GitHub-pratikchittroda--cpu-0B1220?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub profile" /></a>
   <a href="https://portfolio-card-ten-nu.vercel.app"><img src="https://img.shields.io/badge/Portfolio-visit%20the%20lab-0B1220?style=for-the-badge&logo=vercel&logoColor=38BDF8" alt="Portfolio" /></a>
+  <a href="https://project1-7a465.web.app"><img src="https://img.shields.io/badge/Expenzo-open%20app-0B1220?style=for-the-badge&logo=googlechrome&logoColor=22C55E" alt="Open Expenzo" /></a>
   <img src="https://komarev.com/ghpvc/?username=pratikchittroda-cpu&label=profile%20views&color=0891B2&style=for-the-badge" alt="Profile views" />
 </p>
 
@@ -29,6 +30,12 @@ I’m an app developer who enjoys taking an idea from a rough sketch to a produc
   <img src="https://github-readme-stats.vercel.app/api?username=pratikchittroda-cpu&show_icons=true&hide_border=true&theme=transparent&bg_color=0B1220&title_color=F8FAFC&text_color=CBD5E1&icon_color=38BDF8&rank_icon=github" alt="Pratik's GitHub stats" height="170" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pratikchittroda-cpu&layout=compact&hide_border=true&theme=transparent&bg_color=0B1220&title_color=F8FAFC&text_color=CBD5E1&icon_color=38BDF8&langs_count=6" alt="Top languages" height="170" />
 </div>
+
+## ✅ Finished apps
+
+- [Expenzo — open the app site](https://project1-7a465.web.app)
+- [Expenzo — source code](https://github.com/pratikchittroda-cpu/Project-diploma)
+- [Portfolio Card — live demo](https://portfolio-card-ten-nu.vercel.app)
 
 ## 🧪 Selected work
 
