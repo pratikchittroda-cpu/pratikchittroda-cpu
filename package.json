@@ -1,0 +1,12 @@
+{
+  "name": "pratikchittroda-profile",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Validation helpers for the pratikchittroda-cpu GitHub profile README.",
+  "scripts": {
+    "test": "node scripts/check-profile.mjs"
+  },
+  "engines": {
+    "node": ">=22.14.0 <23"
+  }
+}
