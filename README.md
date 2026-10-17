@@ -93,6 +93,7 @@ If you’re working on a product with a strong idea, a tricky interaction, or an
   **Setup**
 
   ```bash
+  nvm install 22.14.0
   nvm use
   npm ci --offline
   ```
