@@ -1,6 +1,6 @@
 // Generates every animated SVG used by the profile README.
 // Run: node scripts/build-assets.mjs
-import { mkdirSync, writeFileSync } from "node:fs";
+import { mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, resolve } from "node:path";
 
 const root = resolve(process.cwd(), "assets");
@@ -164,6 +164,16 @@ ${body}
 
 /* ───────────────────────── PROJECT CARDS ───────────────────────── */
 const art = {
+  commits: (c) => `
+    <g transform="translate(388 60)">
+      <path d="M0 130 H170" stroke="${C.line}" stroke-width="2"/>
+      <path d="M10 110 L50 110 L80 60 L160 60" fill="none" stroke="${c}" stroke-opacity=".5" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M50 110 L160 110" fill="none" stroke="${C.mute}" stroke-width="3" stroke-linecap="round"/>
+      <circle r="5" fill="${C.text}"><animateMotion dur="3.2s" repeatCount="indefinite" path="M10 110 L50 110 L80 60 L160 60"/></circle>
+      ${[[10, 110], [50, 110], [80, 60], [120, 60], [160, 60], [105, 110], [160, 110]].map(([x, y], i) => `<circle cx="${x}" cy="${y}" r="8" fill="#0A0F1E" stroke="${y === 60 || i < 2 ? c : C.mute}" stroke-width="3"/>`).join("")}
+      <circle cx="160" cy="60" r="8" fill="${c}"><animate attributeName="r" values="8;13;8" dur="1.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;.35;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      <text x="85" y="20" text-anchor="middle" fill="${C.dim}" font-family="${MONO}" font-size="11">git push origin main</text>
+    </g>`,
   arc: (c) => `
     <g transform="translate(470 150)">
       <path d="M-90 0 A90 90 0 0 1 90 0" fill="none" stroke="${c}" stroke-opacity=".22" stroke-width="10" stroke-linecap="round"/>
@@ -258,12 +268,12 @@ function card({ file, title, kicker, lines, tags, status, color, motif }) {
   <rect width="${W}" height="${H}" fill="${C.panel}"/>
   <rect width="${W}" height="${H}" fill="url(#glow)"/>
   ${Array.from({ length: 8 }, (_, i) => `<circle cx="${360 + (i % 4) * 60}" cy="${30 + Math.floor(i / 4) * 190}" r="1.4" fill="${C.mute}"/>`).join("")}
-  ${art[motif](color)}
+  ${(art[motif] || art.commits)(color)}
   <g font-family="${SANS}">
     <rect x="28" y="26" rx="11" width="${live ? 74 : 112}" height="22" fill="${color}" fill-opacity=".14" stroke="${color}" stroke-opacity=".6"/>
     <circle cx="42" cy="37" r="4" fill="${color}">${live ? `<animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/>` : ""}</circle>
     <text x="52" y="41.5" fill="${color}" font-family="${MONO}" font-size="11" font-weight="700" letter-spacing="1.5">${status}</text>
-    <text x="28" y="94" fill="${C.text}" font-size="30" font-weight="800">${esc(title)}</text>
+    <text x="28" y="94" fill="${C.text}" font-size="${Math.max(15, Math.min(30, Math.floor(320 / (title.length * 0.58))))}" font-weight="800">${esc(title)}</text>
     <text x="28" y="120" fill="${color}" font-family="${MONO}" font-size="13">${esc(kicker)}</text>
     ${lines.map((l, i) => `<text x="28" y="${152 + i * 22}" fill="${C.dim}" font-size="15">${esc(l)}</text>`).join("")}
     ${(() => { let x = 28; return tags.map((t) => { const w = t.length * 7.4 + 18; const s = `<rect x="${x}" y="206" width="${w}" height="22" rx="6" fill="#111832" stroke="${C.line}"/><text x="${x + w / 2}" y="221" text-anchor="middle" fill="${C.text}" font-family="${MONO}" font-size="11">${esc(t)}</text>`; x += w + 8; return s; }).join(""); })()}
@@ -276,11 +286,8 @@ function card({ file, title, kicker, lines, tags, status, color, motif }) {
 const cards = [
   { file: "expenzo", title: "Expenzo", kicker: "personal & company finance", lines: ["INR budgets, reports and a consent-first", "Financial AI chat on Firebase."], tags: ["React Native", "Firebase", "AI"], status: "LIVE", color: C.amber, motif: "expenzo" },
   { file: "portfolio-card", title: "Portfolio Card", kicker: "a digital business card", lines: ["A flip-worthy visual portfolio", "that lives at a single link."], tags: ["HTML", "CSS", "JS", "Vercel"], status: "LIVE", color: C.cyan, motif: "card" },
-  // the lab: the most recently committed repos, newest first
-  { file: "releasearc", title: "ReleaseArc", kicker: "delivery intelligence", lines: ["Sprints, GitHub, review and CI/CD", "in one view of release health."], tags: ["TypeScript", "Supabase", "GitHub API"], status: "LIVE", color: C.cyan, motif: "arc" },
-  { file: "mangaforge", title: "MangaForge AI", kicker: "manga & manhwa generator", lines: ["Stories, characters and panels,", "generated from a single idea."], tags: ["React", "TypeScript", "Gemini"], status: "EXPERIMENT", color: C.lime, motif: "manga" },
-  { file: "forgecode", title: "ForgeCode", kicker: "local-first agentic IDE", lines: ["Plan → Execute → Verify loops in Rust,", "local LLMs, AST-guarded patching."], tags: ["Rust", "Tauri", "React", "LanceDB"], status: "EXPERIMENT", color: C.violet, motif: "forge" },
-  { file: "valentine", title: "Valentine", kicker: "a proposal with a twist", lines: ["A 'No' button that runs away,", "a photo gallery and AI love notes."], tags: ["React", "Framer Motion", "Gemini"], status: "EXPERIMENT", color: C.pink, motif: "heart" },
+  // the lab: written by scripts/update-lab.mjs (most recently committed repos, newest first)
+  ...JSON.parse(readFileSync(resolve(process.cwd(), "scripts/lab.json"), "utf8")),
 ];
 
 /* ───────────────────────── BUTTONS ───────────────────────── */

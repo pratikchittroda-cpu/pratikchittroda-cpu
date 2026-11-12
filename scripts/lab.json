@@ -1,0 +1,83 @@
+[
+  {
+    "file": "releasearc",
+    "title": "ReleaseArc",
+    "kicker": "delivery intelligence",
+    "lines": [
+      "Sprints, GitHub, review and CI/CD",
+      "in one view of release health."
+    ],
+    "tags": [
+      "TypeScript",
+      "Supabase",
+      "GitHub API"
+    ],
+    "status": "LIVE",
+    "color": "#22D3EE",
+    "motif": "arc",
+    "question": "Can sprint plans, pull requests and CI tell you, in one view, whether a release is [actually on track](https://project-pulse-navy.vercel.app)?",
+    "repo": "ReleaseArc",
+    "url": "https://github.com/pratikchittroda-cpu/ReleaseArc"
+  },
+  {
+    "file": "mangaforge",
+    "title": "MangaForge AI",
+    "kicker": "manga & manhwa generator",
+    "lines": [
+      "Stories, characters and panels,",
+      "generated from a single idea."
+    ],
+    "tags": [
+      "React",
+      "TypeScript",
+      "Gemini"
+    ],
+    "status": "EXPERIMENT",
+    "color": "#A3E635",
+    "motif": "manga",
+    "question": "How far can one idea go — story, characters and panels — before a human has to pick up the pen?",
+    "repo": "Manga-Forge-",
+    "url": "https://github.com/pratikchittroda-cpu/Manga-Forge-"
+  },
+  {
+    "file": "forgecode",
+    "title": "ForgeCode",
+    "kicker": "local-first agentic IDE",
+    "lines": [
+      "Plan → Execute → Verify loops in Rust,",
+      "local LLMs, AST-guarded patching."
+    ],
+    "tags": [
+      "Rust",
+      "Tauri",
+      "React",
+      "LanceDB"
+    ],
+    "status": "EXPERIMENT",
+    "color": "#A78BFA",
+    "motif": "forge",
+    "question": "Can a local LLM on a 16 GB laptop run a real *Plan → Execute → Verify* loop — with tree-sitter guarding every patch?",
+    "repo": "ForgeCode",
+    "url": "https://github.com/pratikchittroda-cpu/ForgeCode"
+  },
+  {
+    "file": "valentine",
+    "title": "Valentine",
+    "kicker": "a proposal with a twist",
+    "lines": [
+      "A 'No' button that runs away,",
+      "a photo gallery and AI love notes."
+    ],
+    "tags": [
+      "React",
+      "Framer Motion",
+      "Gemini"
+    ],
+    "status": "EXPERIMENT",
+    "color": "#F472B6",
+    "motif": "heart",
+    "question": "What if the \"No\" button simply refused to be clicked?",
+    "repo": "Valentine",
+    "url": "https://github.com/pratikchittroda-cpu/Valentine"
+  }
+]

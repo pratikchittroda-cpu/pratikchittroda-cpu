@@ -42,16 +42,20 @@ const pratik = {
 
 <img src="./assets/headers/the-lab.svg" alt="03 — the lab: experiments in progress" width="100%" />
 
+<!-- LAB-CARDS:START -->
 <p align="center">
-  <a href="https://github.com/pratikchittroda-cpu/ReleaseArc"><img src="./assets/cards/releasearc.svg" alt="ReleaseArc — delivery intelligence for engineering teams, live" width="49%" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/Manga-Forge-"><img src="./assets/cards/mangaforge.svg" alt="MangaForge AI — manga and manhwa generator" width="49%" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/ForgeCode"><img src="./assets/cards/forgecode.svg" alt="ForgeCode — local-first agentic IDE in Rust and Tauri" width="49%" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/Valentine"><img src="./assets/cards/valentine.svg" alt="Valentine — an interactive proposal site with a runaway No button" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/ReleaseArc"><img src="./assets/cards/releasearc.svg" alt="ReleaseArc — delivery intelligence" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Manga-Forge-"><img src="./assets/cards/mangaforge.svg" alt="MangaForge AI — manga &amp; manhwa generator" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/ForgeCode"><img src="./assets/cards/forgecode.svg" alt="ForgeCode — local-first agentic IDE" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Valentine"><img src="./assets/cards/valentine.svg" alt="Valentine — a proposal with a twist" width="49%" /></a>
 </p>
+<!-- LAB-CARDS:END -->
 
 <details>
   <summary><b>📟 &nbsp;open the lab notes</b></summary>
   <br />
+
+<!-- LAB-NOTES:START -->
 
 | Experiment | The question it asks |
 | :--- | :--- |
@@ -61,6 +65,8 @@ const pratik = {
 | [**Valentine**](https://github.com/pratikchittroda-cpu/Valentine) | What if the "No" button simply refused to be clicked? |
 | [**Expenzo**](https://github.com/pratikchittroda-cpu/Project-diploma) | Can a finance AI ask for consent first and keep keys out of the app bundle? |
 | [**Portfolio Card**](https://github.com/pratikchittroda-cpu/Portfolio-Card) | How much of "me" fits on one card at [one link](https://portfolio-card-ten-nu.vercel.app)? |
+
+<!-- LAB-NOTES:END -->
 
 </details>
 
@@ -119,5 +125,7 @@ make test                       # validate the README
 ```
 
 The `snake.yml` workflow refreshes the contribution snake daily; push to `main` and GitHub does the rest.
+
+The `lab.yml` workflow runs `scripts/update-lab.mjs` every day so the lab always shows the most recently committed public repos. Hand-written card copy lives in `scripts/lab-catalog.mjs`; repos without an entry there get a card built from their GitHub description.
 
 </details>

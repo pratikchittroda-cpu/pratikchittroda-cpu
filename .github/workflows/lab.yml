@@ -1,0 +1,50 @@
+name: Refresh the lab
+
+# Keeps "the lab" in the README pointed at the most recently committed public repos.
+on:
+  schedule:
+    - cron: "30 0 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-lab
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+
+      - name: Pick the latest repos
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/update-lab.mjs
+
+      - name: Redraw the cards
+        run: node scripts/build-assets.mjs
+
+      - name: Validate the README
+        run: node scripts/check-profile.mjs
+
+      - name: Publish if the lab changed
+        run: |
+          git add -A README.md assets scripts/lab.json
+          if git diff --cached --quiet; then
+            echo "Lab is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: refresh the lab"
+          git pull --rebase origin main
+          git push

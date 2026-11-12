@@ -14,6 +14,10 @@ const requiredSections = [
   "headers/open-a-channel.svg",
   "github-contribution-grid-snake.svg",
   "pratikchittroda-cpu",
+  "<!-- LAB-CARDS:START -->",
+  "<!-- LAB-CARDS:END -->",
+  "<!-- LAB-NOTES:START -->",
+  "<!-- LAB-NOTES:END -->",
 ];
 
 const missingSections = requiredSections.filter((section) => !readme.includes(section));
