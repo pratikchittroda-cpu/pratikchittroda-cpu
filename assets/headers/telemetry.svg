@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 84" width="1200" height="84" role="img" aria-label="05 telemetry">
+<title>telemetry</title>
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#A3E635"/><stop offset="1" stop-color="#A3E635" stop-opacity="0"/></linearGradient></defs>
+<text x="4" y="52" fill="#A3E635" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="16" font-weight="700">05</text>
+<text x="52" y="54" fill="#E2E8F0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="32" font-weight="800" letter-spacing="1">telemetry</text>
+<text x="258" y="53" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="15">// proof of life</text>
+<rect x="4" y="72" width="1192" height="2" fill="url(#g)" opacity=".7"/>
+<rect x="4" y="71" width="80" height="4" rx="2" fill="#A3E635">
+  <animate attributeName="x" values="4;1110;4" dur="7s" repeatCount="indefinite" calcMode="spline" keyTimes="0;.5;1" keySplines=".45 0 .55 1;.45 0 .55 1"/>
+  <animate attributeName="opacity" values="1;.25;1" dur="7s" repeatCount="indefinite"/>
+</rect>
+</svg>

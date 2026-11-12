@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 64" width="260" height="64" role="img" aria-label="Read the source">
+<title>Read the source</title>
+<defs>
+  <linearGradient id="e" x1="0" x2="1"><stop offset="0" stop-color="#A78BFA"/><stop offset="1" stop-color="#A78BFA"/></linearGradient>
+  <linearGradient id="s" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+  <clipPath id="c"><rect x="2" y="2" width="256" height="60" rx="16"/></clipPath>
+</defs>
+<rect x="2" y="2" width="256" height="60" rx="16" fill="#0B1120"/>
+<g clip-path="url(#c)"><rect x="-80" y="0" width="60" height="64" fill="url(#s)" transform="skewX(-20)"><animate attributeName="x" values="-80;-80;320" keyTimes="0;.55;1" dur="4s" repeatCount="indefinite"/></rect></g>
+<rect x="2" y="2" width="256" height="60" rx="16" fill="none" stroke="url(#e)" stroke-width="2"/>
+<rect x="14" y="14" width="36" height="36" rx="10" fill="#A78BFA" fill-opacity=".16"/>
+<text x="32" y="39" text-anchor="middle" fill="#A78BFA" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" font-weight="800">&lt;/&gt;</text>
+<text x="64" y="30" fill="#E2E8F0" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16" font-weight="700">Read the source</text>
+<text x="64" y="48" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">github / Project-diploma</text>
+<text x="234" y="38" fill="#A78BFA" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="700">→<animate attributeName="x" values="232;238;232" dur="1.6s" repeatCount="indefinite"/></text>
+</svg>

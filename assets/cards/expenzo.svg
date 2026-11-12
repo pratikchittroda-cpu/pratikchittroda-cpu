@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250" role="img" aria-labelledby="t d">
+<title id="t">Expenzo — personal &amp; company finance</title>
+<desc id="d">INR budgets, reports and a consent-first Financial AI chat on Firebase. Built with React Native, Firebase, AI.</desc>
+<defs>
+  <radialGradient id="glow" cx=".8" cy=".4" r=".6"><stop offset="0" stop-color="#FBBF24" stop-opacity=".22"/><stop offset="1" stop-color="#FBBF24" stop-opacity="0"/></radialGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#FBBF24" stop-opacity=".1"/></linearGradient>
+  <clipPath id="c"><rect width="600" height="250" rx="20"/></clipPath>
+</defs>
+<g clip-path="url(#c)">
+  <rect width="600" height="250" fill="#0B1120"/>
+  <rect width="600" height="250" fill="url(#glow)"/>
+  <circle cx="360" cy="30" r="1.4" fill="#475569"/><circle cx="420" cy="30" r="1.4" fill="#475569"/><circle cx="480" cy="30" r="1.4" fill="#475569"/><circle cx="540" cy="30" r="1.4" fill="#475569"/><circle cx="360" cy="220" r="1.4" fill="#475569"/><circle cx="420" cy="220" r="1.4" fill="#475569"/><circle cx="480" cy="220" r="1.4" fill="#475569"/><circle cx="540" cy="220" r="1.4" fill="#475569"/>
+  
+    <g transform="translate(395 50)">
+      <line x1="0" x2="160" y1="150" y2="150" stroke="#1E293B" stroke-width="2"/>
+      <rect x="8" width="20" rx="5" fill="#A78BFA" opacity="0.6"><animate attributeName="height" values="0;50;50;0" keyTimes="0;.3;.85;1" dur="4s" begin="0s" repeatCount="indefinite"/><animate attributeName="y" values="150;100;100;150" keyTimes="0;.3;.85;1" dur="4s" begin="0s" repeatCount="indefinite"/></rect><rect x="38" width="20" rx="5" fill="#A78BFA" opacity="0.6"><animate attributeName="height" values="0;90;90;0" keyTimes="0;.3;.85;1" dur="4s" begin="0.12s" repeatCount="indefinite"/><animate attributeName="y" values="150;60;60;150" keyTimes="0;.3;.85;1" dur="4s" begin="0.12s" repeatCount="indefinite"/></rect><rect x="68" width="20" rx="5" fill="#A78BFA" opacity="0.6"><animate attributeName="height" values="0;64;64;0" keyTimes="0;.3;.85;1" dur="4s" begin="0.24s" repeatCount="indefinite"/><animate attributeName="y" values="150;86;86;150" keyTimes="0;.3;.85;1" dur="4s" begin="0.24s" repeatCount="indefinite"/></rect><rect x="98" width="20" rx="5" fill="#FBBF24" opacity="1"><animate attributeName="height" values="0;120;120;0" keyTimes="0;.3;.85;1" dur="4s" begin="0.36s" repeatCount="indefinite"/><animate attributeName="y" values="150;30;30;150" keyTimes="0;.3;.85;1" dur="4s" begin="0.36s" repeatCount="indefinite"/></rect><rect x="128" width="20" rx="5" fill="#A78BFA" opacity="0.6"><animate attributeName="height" values="0;100;100;0" keyTimes="0;.3;.85;1" dur="4s" begin="0.48s" repeatCount="indefinite"/><animate attributeName="y" values="150;50;50;150" keyTimes="0;.3;.85;1" dur="4s" begin="0.48s" repeatCount="indefinite"/></rect>
+      <g><circle cx="150" cy="10" r="22" fill="#FBBF24" stroke="#B45309" stroke-width="3"/><text x="150" y="18" text-anchor="middle" fill="#78350F" font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="22" font-weight="900">₹</text>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="1.4s" repeatCount="indefinite"/></g>
+    </g>
+  <g font-family="-apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <rect x="28" y="26" rx="11" width="74" height="22" fill="#FBBF24" fill-opacity=".14" stroke="#FBBF24" stroke-opacity=".6"/>
+    <circle cx="42" cy="37" r="4" fill="#FBBF24"><animate attributeName="opacity" values="1;.2;1" dur="1.4s" repeatCount="indefinite"/></circle>
+    <text x="52" y="41.5" fill="#FBBF24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11" font-weight="700" letter-spacing="1.5">LIVE</text>
+    <text x="28" y="94" fill="#E2E8F0" font-size="30" font-weight="800">Expenzo</text>
+    <text x="28" y="120" fill="#FBBF24" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="13">personal &amp; company finance</text>
+    <text x="28" y="152" fill="#94A3B8" font-size="15">INR budgets, reports and a consent-first</text><text x="28" y="174" fill="#94A3B8" font-size="15">Financial AI chat on Firebase.</text>
+    <rect x="28" y="206" width="106.80000000000001" height="22" rx="6" fill="#111832" stroke="#1E293B"/><text x="81.4" y="221" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">React Native</text><rect x="142.8" y="206" width="77.2" height="22" rx="6" fill="#111832" stroke="#1E293B"/><text x="181.4" y="221" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">Firebase</text><rect x="228" y="206" width="32.8" height="22" rx="6" fill="#111832" stroke="#1E293B"/><text x="244.4" y="221" text-anchor="middle" fill="#E2E8F0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace" font-size="11">AI</text>
+  </g>
+</g>
+<rect x="1" y="1" width="598" height="248" rx="19" fill="none" stroke="url(#edge)" stroke-opacity=".7" stroke-width="2"/>
+</svg>

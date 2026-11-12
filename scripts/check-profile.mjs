@@ -1,15 +1,17 @@
-import { readFileSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 
 const readmePath = resolve(process.cwd(), "README.md");
 const readme = readFileSync(readmePath, "utf8");
 
 const requiredSections = [
-  "Hey, I’m Pratik",
-  "Selected work",
-  "Tools I reach for",
-  "The build loop",
-  "Let’s build something useful",
+  "assets/hero.svg",
+  "headers/whoami.svg",
+  "headers/launch-bay.svg",
+  "headers/the-lab.svg",
+  "headers/toolbelt.svg",
+  "headers/telemetry.svg",
+  "headers/open-a-channel.svg",
   "github-contribution-grid-snake.svg",
   "pratikchittroda-cpu",
 ];
@@ -17,6 +19,12 @@ const requiredSections = [
 const missingSections = requiredSections.filter((section) => !readme.includes(section));
 if (missingSections.length > 0) {
   throw new Error(`README is missing required content: ${missingSections.join(", ")}`);
+}
+
+const localAssets = [...readme.matchAll(/src="\.\/([^"]+)"/g)].map(([, p]) => p);
+const missingAssets = localAssets.filter((p) => !existsSync(resolve(process.cwd(), p)));
+if (missingAssets.length > 0) {
+  throw new Error(`README references missing local assets: ${missingAssets.join(", ")}`);
 }
 
 const links = [...readme.matchAll(/https:\/\/[^\s)"']+/g)].map(([link]) => link);
