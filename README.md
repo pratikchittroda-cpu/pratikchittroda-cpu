@@ -43,10 +43,10 @@ const pratik = {
 <img src="./assets/headers/the-lab.svg" alt="03 — the lab: experiments in progress" width="100%" />
 
 <p align="center">
+  <a href="https://github.com/pratikchittroda-cpu/ReleaseArc"><img src="./assets/cards/releasearc.svg" alt="ReleaseArc — delivery intelligence for engineering teams, live" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Manga-Forge-"><img src="./assets/cards/mangaforge.svg" alt="MangaForge AI — manga and manhwa generator" width="49%" /></a>
   <a href="https://github.com/pratikchittroda-cpu/ForgeCode"><img src="./assets/cards/forgecode.svg" alt="ForgeCode — local-first agentic IDE in Rust and Tauri" width="49%" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/Chronicles-Of-Infinity"><img src="./assets/cards/chronicles.svg" alt="Chronicles of Infinity — infinite choose-your-own-adventure engine" width="49%" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/ChicAI"><img src="./assets/cards/chicai.svg" alt="ChicAI — virtual stylist" width="49%" /></a>
-  <a href="https://github.com/pratikchittroda-cpu/Culinary-Ai"><img src="./assets/cards/culinary-ai.svg" alt="Culinary AI — smart-fridge sous-chef" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Valentine"><img src="./assets/cards/valentine.svg" alt="Valentine — an interactive proposal site with a runaway No button" width="49%" /></a>
 </p>
 
 <details>
@@ -55,10 +55,10 @@ const pratik = {
 
 | Experiment | The question it asks |
 | :--- | :--- |
+| [**ReleaseArc**](https://github.com/pratikchittroda-cpu/ReleaseArc) | Can sprint plans, pull requests and CI tell you, in one view, whether a release is [actually on track](https://project-pulse-navy.vercel.app)? |
+| [**MangaForge AI**](https://github.com/pratikchittroda-cpu/Manga-Forge-) | How far can one idea go — story, characters and panels — before a human has to pick up the pen? |
 | [**ForgeCode**](https://github.com/pratikchittroda-cpu/ForgeCode) | Can a local LLM on a 16 GB laptop run a real *Plan → Execute → Verify* loop — with tree-sitter guarding every patch? |
-| [**Chronicles of ∞**](https://github.com/pratikchittroda-cpu/Chronicles-Of-Infinity) | What happens when a choose-your-own-adventure book simply… never ends? |
-| [**ChicAI**](https://github.com/pratikchittroda-cpu/ChicAI) | Can a stylist be helpful instead of just trendy? |
-| [**Culinary AI**](https://github.com/pratikchittroda-cpu/Culinary-Ai) | What's for dinner, given what's *actually* in the fridge? |
+| [**Valentine**](https://github.com/pratikchittroda-cpu/Valentine) | What if the "No" button simply refused to be clicked? |
 | [**Expenzo**](https://github.com/pratikchittroda-cpu/Project-diploma) | Can a finance AI ask for consent first and keep keys out of the app bundle? |
 | [**Portfolio Card**](https://github.com/pratikchittroda-cpu/Portfolio-Card) | How much of "me" fits on one card at [one link](https://portfolio-card-ten-nu.vercel.app)? |
 

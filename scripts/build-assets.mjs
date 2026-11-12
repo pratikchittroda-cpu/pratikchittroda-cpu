@@ -164,6 +164,36 @@ ${body}
 
 /* ───────────────────────── PROJECT CARDS ───────────────────────── */
 const art = {
+  arc: (c) => `
+    <g transform="translate(470 150)">
+      <path d="M-90 0 A90 90 0 0 1 90 0" fill="none" stroke="${c}" stroke-opacity=".22" stroke-width="10" stroke-linecap="round"/>
+      <path d="M-90 0 A90 90 0 0 1 90 0" fill="none" stroke="${c}" stroke-width="10" stroke-linecap="round" stroke-dasharray="283" stroke-dashoffset="283"><animate attributeName="stroke-dashoffset" values="283;0;0;283" keyTimes="0;.55;.88;1" dur="4.8s" repeatCount="indefinite"/></path>
+      ${[0, 1, 2, 3].map((i) => { const a = Math.PI - (i * Math.PI) / 3; const x = (Math.cos(a) * 90).toFixed(1), y = (-Math.sin(a) * 90).toFixed(1); return `<circle cx="${x}" cy="${y}" r="8" fill="#0A0F1E" stroke="${C.text}" stroke-width="2"><animate attributeName="fill" values="#0A0F1E;${c};${c};#0A0F1E" keyTimes="0;${(0.08 + i * 0.16).toFixed(2)};.88;1" dur="4.8s" repeatCount="indefinite"/></circle>`; }).join("")}
+      <text y="-22" text-anchor="middle" fill="${C.text}" font-family="${SANS}" font-size="22" font-weight="800">on track</text>
+      <text y="-2" text-anchor="middle" fill="${C.dim}" font-family="${MONO}" font-size="11">release health</text>
+      <text y="30" text-anchor="middle" fill="${C.dim}" font-family="${MONO}" font-size="11">plan · review · ci · ship</text>
+    </g>`,
+  manga: (c) => `
+    <g transform="translate(385 40)">
+      <rect width="170" height="170" rx="10" fill="#0A0F1E" stroke="${C.text}" stroke-width="3"/>
+      <path d="M0 78 L170 62 M92 70 L80 170" stroke="${C.text}" stroke-width="3" fill="none"/>
+      ${[0, 1, 2, 3, 4].map((i) => `<line x1="150" y1="34" x2="14" y2="${12 + i * 12}" stroke="${c}" stroke-width="2" stroke-linecap="round"><animate attributeName="opacity" values=".15;1;.15" dur="1.2s" begin="${i * 0.18}s" repeatCount="indefinite"/></line>`).join("")}
+      <circle cx="150" cy="34" r="9" fill="${c}"/>
+      <circle cx="42" cy="124" r="22" fill="none" stroke="${C.text}" stroke-width="3"/>
+      <circle cx="34" cy="120" r="3" fill="${C.text}"/><circle cx="50" cy="120" r="3" fill="${C.text}"/>
+      <path d="M33 132 q9 8 18 0" fill="none" stroke="${C.text}" stroke-width="3" stroke-linecap="round"/>
+      <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" dur="1.6s" repeatCount="indefinite"/>
+        <path d="M100 96 h54 q8 0 8 8 v24 q0 8 -8 8 h-30 l-12 14 v-14 h-12 q-8 0 -8 -8 v-24 q0 -8 8 -8 Z" fill="${C.text}"/>
+        <text x="127" y="124" text-anchor="middle" fill="#0A0F1E" font-family="${SANS}" font-size="20" font-weight="900">!?</text></g>
+    </g>`,
+  heart: (c) => `
+    <g transform="translate(470 104)">
+      <g><animateTransform attributeName="transform" type="scale" values="1.7;1.95;1.7;1.82;1.7" keyTimes="0;.15;.3;.45;1" dur="1.6s" repeatCount="indefinite"/>
+        <path d="M0 20 C-42 -8 -24 -44 0 -22 C24 -44 42 -8 0 20 Z" fill="${c}"/></g>
+      <rect x="-92" y="62" width="64" height="28" rx="14" fill="${c}"/><text x="-60" y="81" text-anchor="middle" fill="#0A0F1E" font-family="${SANS}" font-size="14" font-weight="800">Yes</text>
+      <g><animateTransform attributeName="transform" type="translate" values="0 0;34 -18;-6 -30;40 8;0 0" dur="3.6s" repeatCount="indefinite"/>
+        <rect x="10" y="62" width="56" height="28" rx="14" fill="#0A0F1E" stroke="${C.text}" stroke-width="2"/><text x="38" y="81" text-anchor="middle" fill="${C.text}" font-family="${SANS}" font-size="14" font-weight="800">No</text></g>
+    </g>`,
   forge: (c) => `
     <g transform="translate(470 120)" font-family="${MONO}" font-size="11" text-anchor="middle">
       <path id="tri" d="M0 -62 L58 40 L-58 40 Z" fill="none" stroke="${c}" stroke-opacity=".35" stroke-width="2" stroke-dasharray="4 6"/>
@@ -246,10 +276,11 @@ function card({ file, title, kicker, lines, tags, status, color, motif }) {
 const cards = [
   { file: "expenzo", title: "Expenzo", kicker: "personal & company finance", lines: ["INR budgets, reports and a consent-first", "Financial AI chat on Firebase."], tags: ["React Native", "Firebase", "AI"], status: "LIVE", color: C.amber, motif: "expenzo" },
   { file: "portfolio-card", title: "Portfolio Card", kicker: "a digital business card", lines: ["A flip-worthy visual portfolio", "that lives at a single link."], tags: ["HTML", "CSS", "JS", "Vercel"], status: "LIVE", color: C.cyan, motif: "card" },
+  // the lab: the most recently committed repos, newest first
+  { file: "releasearc", title: "ReleaseArc", kicker: "delivery intelligence", lines: ["Sprints, GitHub, review and CI/CD", "in one view of release health."], tags: ["TypeScript", "Supabase", "GitHub API"], status: "LIVE", color: C.cyan, motif: "arc" },
+  { file: "mangaforge", title: "MangaForge AI", kicker: "manga & manhwa generator", lines: ["Stories, characters and panels,", "generated from a single idea."], tags: ["React", "TypeScript", "Gemini"], status: "EXPERIMENT", color: C.lime, motif: "manga" },
   { file: "forgecode", title: "ForgeCode", kicker: "local-first agentic IDE", lines: ["Plan → Execute → Verify loops in Rust,", "local LLMs, AST-guarded patching."], tags: ["Rust", "Tauri", "React", "LanceDB"], status: "EXPERIMENT", color: C.violet, motif: "forge" },
-  { file: "chronicles", title: "Chronicles of ∞", kicker: "infinite adventure engine", lines: ["A choose-your-own-adventure", "that never runs out of chapters."], tags: ["TypeScript", "Gemini"], status: "EXPERIMENT", color: C.pink, motif: "infinity" },
-  { file: "chicai", title: "ChicAI", kicker: "your virtual stylist", lines: ["AI-assisted outfit ideas and", "recommendations that make sense."], tags: ["TypeScript", "Gemini"], status: "EXPERIMENT", color: C.pink, motif: "chic" },
-  { file: "culinary-ai", title: "Culinary AI", kicker: "smart-fridge sous-chef", lines: ["Look inside the fridge, decide", "what's for dinner — together."], tags: ["TypeScript", "Gemini"], status: "EXPERIMENT", color: C.lime, motif: "fridge" },
+  { file: "valentine", title: "Valentine", kicker: "a proposal with a twist", lines: ["A 'No' button that runs away,", "a photo gallery and AI love notes."], tags: ["React", "Framer Motion", "Gemini"], status: "EXPERIMENT", color: C.pink, motif: "heart" },
 ];
 
 /* ───────────────────────── BUTTONS ───────────────────────── */
