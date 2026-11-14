@@ -3,7 +3,7 @@
 </div>
 
 <p align="center">
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="./assets/buttons/portfolio.svg" alt="Portfolio" height="56" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app/portfolio/"><img src="./assets/buttons/portfolio.svg" alt="Portfolio" height="56" /></a>
   <a href="https://www.linkedin.com/in/pratik-chittroda/"><img src="./assets/buttons/linkedin.svg" alt="LinkedIn" height="56" /></a>
   <a href="https://www.instagram.com/pratik.limitless"><img src="./assets/buttons/instagram.svg" alt="Instagram" height="56" /></a>
 </p>
