@@ -102,7 +102,7 @@ const pratik = {
 <p align="center">
   <a href="https://www.linkedin.com/in/pratik-chittroda/"><img src="./assets/buttons/linkedin.svg" alt="Connect on LinkedIn" height="56" /></a>
   <a href="https://www.instagram.com/pratik.limitless"><img src="./assets/buttons/instagram.svg" alt="Follow on Instagram" height="56" /></a>
-  <a href="https://portfolio-card-ten-nu.vercel.app"><img src="./assets/buttons/portfolio.svg" alt="See the portfolio" height="56" /></a>
+  <a href="https://portfolio-card-ten-nu.vercel.app/portfolio/"><img src="./assets/buttons/portfolio.svg" alt="See the portfolio" height="56" /></a>
 </p>
 
 <br />
