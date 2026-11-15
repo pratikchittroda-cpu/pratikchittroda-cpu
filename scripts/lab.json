@@ -61,23 +61,23 @@
     "url": "https://github.com/pratikchittroda-cpu/ForgeCode"
   },
   {
-    "file": "valentine",
-    "title": "Valentine",
-    "kicker": "a proposal with a twist",
+    "file": "career-survivalist",
+    "title": "Career Survivalist",
+    "kicker": "career risk analyzer",
     "lines": [
-      "A 'No' button that runs away,",
-      "a photo gallery and AI love notes."
+      "Stress-tests your job against",
+      "automation, burnout and market shifts."
     ],
     "tags": [
       "React",
-      "Framer Motion",
+      "TypeScript",
       "Gemini"
     ],
     "status": "EXPERIMENT",
-    "color": "#F472B6",
-    "motif": "heart",
-    "question": "What if the \"No\" button simply refused to be clicked?",
-    "repo": "Valentine",
-    "url": "https://github.com/pratikchittroda-cpu/Valentine"
+    "color": "#FBBF24",
+    "motif": "commits",
+    "question": "Will your career survive the future — and what would a ruthlessly honest AI say about it?",
+    "repo": "Career-Survivalist",
+    "url": "https://github.com/pratikchittroda-cpu/Career-Survivalist"
   }
 ]

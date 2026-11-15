@@ -19,7 +19,7 @@ if (!res.ok) throw new Error(`GitHub responded ${res.status}`);
 const repos = await res.json();
 
 const picked = repos
-  .filter((r) => !r.private && !r.fork && !r.archived && !EXCLUDE.includes(r.name))
+  .filter((r) => !r.private && !r.fork && !r.archived && r.language && !EXCLUDE.includes(r.name))
   .sort((a, b) => new Date(b.pushed_at) - new Date(a.pushed_at))
   .slice(0, LAB_SIZE);
 if (picked.length === 0) throw new Error("No public repos to show in the lab");

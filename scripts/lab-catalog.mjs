@@ -10,7 +10,7 @@ export const COLORS = [cyan, violet, pink, amber, lime];
 export const LAB_SIZE = 4;
 
 // Never shown in the lab: this profile repo, the two launch-bay projects, and throwaways.
-export const EXCLUDE = ["pratikchittroda-cpu", "Portfolio-Card", "Project-diploma", "Expenzo", "demo.."];
+export const EXCLUDE = ["pratikchittroda-cpu", "Portfolio-Card", "Project-diploma", "Expenzo", "demo..", "Valentine"];
 
 export const CURATED = {
   ReleaseArc: {
@@ -36,6 +36,12 @@ export const CURATED = {
     lines: ["A 'No' button that runs away,", "a photo gallery and AI love notes."],
     tags: ["React", "Framer Motion", "Gemini"], status: "EXPERIMENT", color: pink, motif: "heart",
     question: "What if the \"No\" button simply refused to be clicked?",
+  },
+  "Career-Survivalist": {
+    file: "career-survivalist", title: "Career Survivalist", kicker: "career risk analyzer",
+    lines: ["Stress-tests your job against", "automation, burnout and market shifts."],
+    tags: ["React", "TypeScript", "Gemini"], status: "EXPERIMENT", color: amber, motif: "commits",
+    question: "Will your career survive the future — and what would a ruthlessly honest AI say about it?",
   },
   "Chronicles-Of-Infinity": {
     file: "chronicles", title: "Chronicles of ∞", kicker: "infinite adventure engine",
