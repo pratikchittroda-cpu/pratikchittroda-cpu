@@ -1,5 +1,23 @@
 [
   {
+    "file": "lab-ahi-final",
+    "title": "AHI final",
+    "kicker": "typescript experiment",
+    "lines": [
+      "A TypeScript project, fresh off the",
+      "keyboard."
+    ],
+    "tags": [
+      "TypeScript"
+    ],
+    "status": "EXPERIMENT",
+    "color": "#22D3EE",
+    "motif": "commits",
+    "question": "A TypeScript project, fresh off the keyboard.",
+    "repo": "AHI-final-",
+    "url": "https://github.com/pratikchittroda-cpu/AHI-final-"
+  },
+  {
     "file": "releasearc",
     "title": "ReleaseArc",
     "kicker": "delivery intelligence",
@@ -59,25 +77,5 @@
     "question": "Can a local LLM on a 16 GB laptop run a real *Plan → Execute → Verify* loop — with tree-sitter guarding every patch?",
     "repo": "ForgeCode",
     "url": "https://github.com/pratikchittroda-cpu/ForgeCode"
-  },
-  {
-    "file": "career-survivalist",
-    "title": "Career Survivalist",
-    "kicker": "career risk analyzer",
-    "lines": [
-      "Stress-tests your job against",
-      "automation, burnout and market shifts."
-    ],
-    "tags": [
-      "React",
-      "TypeScript",
-      "Gemini"
-    ],
-    "status": "EXPERIMENT",
-    "color": "#FBBF24",
-    "motif": "commits",
-    "question": "Will your career survive the future — and what would a ruthlessly honest AI say about it?",
-    "repo": "Career-Survivalist",
-    "url": "https://github.com/pratikchittroda-cpu/Career-Survivalist"
   }
 ]
