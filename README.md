@@ -44,10 +44,10 @@ const pratik = {
 
 <!-- LAB-CARDS:START -->
 <p align="center">
-  <a href="https://github.com/pratikchittroda-cpu/AHI-final-"><img src="./assets/cards/lab-ahi-final.svg" alt="AHI final — typescript experiment" width="49%" /></a>
   <a href="https://github.com/pratikchittroda-cpu/ReleaseArc"><img src="./assets/cards/releasearc.svg" alt="ReleaseArc — delivery intelligence" width="49%" /></a>
   <a href="https://github.com/pratikchittroda-cpu/Manga-Forge-"><img src="./assets/cards/mangaforge.svg" alt="MangaForge AI — manga &amp; manhwa generator" width="49%" /></a>
   <a href="https://github.com/pratikchittroda-cpu/ForgeCode"><img src="./assets/cards/forgecode.svg" alt="ForgeCode — local-first agentic IDE" width="49%" /></a>
+  <a href="https://github.com/pratikchittroda-cpu/Career-Survivalist"><img src="./assets/cards/career-survivalist.svg" alt="Career Survivalist — career risk analyzer" width="49%" /></a>
 </p>
 <!-- LAB-CARDS:END -->
 
@@ -59,10 +59,10 @@ const pratik = {
 
 | Experiment | The question it asks |
 | :--- | :--- |
-| [**AHI final**](https://github.com/pratikchittroda-cpu/AHI-final-) | A TypeScript project, fresh off the keyboard. |
 | [**ReleaseArc**](https://github.com/pratikchittroda-cpu/ReleaseArc) | Can sprint plans, pull requests and CI tell you, in one view, whether a release is [actually on track](https://project-pulse-navy.vercel.app)? |
 | [**MangaForge AI**](https://github.com/pratikchittroda-cpu/Manga-Forge-) | How far can one idea go — story, characters and panels — before a human has to pick up the pen? |
 | [**ForgeCode**](https://github.com/pratikchittroda-cpu/ForgeCode) | Can a local LLM on a 16 GB laptop run a real *Plan → Execute → Verify* loop — with tree-sitter guarding every patch? |
+| [**Career Survivalist**](https://github.com/pratikchittroda-cpu/Career-Survivalist) | Will your career survive the future — and what would a ruthlessly honest AI say about it? |
 | [**Expenzo**](https://github.com/pratikchittroda-cpu/Project-diploma) | Can a finance AI ask for consent first and keep keys out of the app bundle? |
 | [**Portfolio Card**](https://github.com/pratikchittroda-cpu/Portfolio-Card) | How much of "me" fits on one card at [one link](https://portfolio-card-ten-nu.vercel.app)? |
 
